@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tekvana - Mini E-commerce Website
 
-## Getting Started
+Sebuah website e-commerce mini yang dibangun dengan Next.js dan Tailwind CSS untuk menampilkan produk elektronik dan teknologi.
 
-First, run the development server:
+## 🌐 Live Demo
+**[https://tekvana.vercel.app/](https://tekvana.vercel.app/)**
 
-```bash
+## 📋 Deskripsi Proyek
+Tekvana adalah platform e-commerce yang fokus pada produk teknologi dan elektronik. Website ini dibuat sebagai proyek mini untuk mendemonstrasikan kemampuan pengembangan web modern dengan fitur-fitur lengkap seperti katalog produk, keranjang belanja, dan sistem checkout.
+
+## ✨ Fitur Utama
+- 🏠 **Homepage** dengan hero section dan produk unggulan
+- 📱 **Katalog Produk** dengan grid layout responsif
+- 🔍 **Detail Produk** dengan informasi lengkap dan rating
+- 🛒 **Keranjang Belanja** dengan fungsi tambah/kurang/hapus item
+- 💳 **Halaman Checkout** dengan form pembayaran
+- 📄 **Halaman About** dengan informasi perusahaan
+- 📱 **Responsive Design** untuk semua ukuran layar
+- 🎨 **Modern UI/UX** dengan gradien dan animasi
+
+## 🛠️ Teknologi yang Digunakan
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Icons**: Lucide React
+- **API**: FakeStore API untuk data produk
+- **Deployment**: Vercel
+- **Language**: TypeScript
+
+## 🚀 Cara Menjalankan Lokal
+
+\`\`\`bash
+# Clone repository
+git clone https://github.com/username/tekvana-ecommerce.git
+
+# Masuk ke direktori
+cd tekvana-ecommerce
+
+# Install dependencies
+npm install
+
+# Jalankan development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka [http://localhost:3000](http://localhost:3000) di browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Struktur Proyek
+\`\`\`
+tekvana/
+├── app/                    # App Router pages
+│   ├── page.tsx           # Homepage
+│   ├── products/          # Halaman produk
+│   ├── cart/              # Keranjang belanja
+│   ├── checkout/          # Checkout
+│   └── about/             # Tentang kami
+├── components/            # Komponen React
+│   ├── Header.tsx         # Navigation header
+│   ├── Footer.tsx         # Footer
+│   ├── ProductCard.tsx    # Card produk
+│   └── ProductGrid.tsx    # Grid produk
+├── lib/                   # Utilities & API
+│   └── api.ts            # API functions
+└── public/               # Static assets
+\`\`\`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Fitur Khusus
+- **Lokalisasi Indonesia**: Bahasa, mata uang (IDR), dan konteks lokal
+- **Data Dinamis**: Menggunakan FakeStore API untuk produk elektronik
+- **State Management**: Local Storage untuk keranjang belanja
+- **Loading States**: Spinner dan skeleton loading
+- **Error Handling**: Fallback untuk API errors
+- **SEO Optimized**: Meta tags dan struktur HTML yang baik
 
-## Learn More
+## 👨‍💻 Dibuat Oleh
+**[Nama Anda]** - Mahasiswa CCI Telkom University
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 Lisensi
+Proyek ini dibuat untuk keperluan edukasi dan portfolio.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Dibuat dengan ❤️ menggunakan Next.js dan Tailwind CSS*
