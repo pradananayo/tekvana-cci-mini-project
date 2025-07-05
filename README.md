@@ -1,82 +1,81 @@
-# Tekvana - Mini E-commerce Website
+# Tekvana - E-commerce Website
 
-Sebuah website e-commerce mini yang dibangun dengan Next.js dan Tailwind CSS untuk menampilkan produk elektronik dan teknologi.
+Tekvana adalah website e-commerce modern yang menampilkan berbagai produk teknologi dan elektronik. Dibangun menggunakan **Next.js** dan **Tailwind CSS**, website ini dirancang responsif dengan antarmuka yang bersih dan intuitif.
 
-## 🌐 Live Demo
-**[https://tekvana.vercel.app/](https://tekvana.vercel.app/)**
+## Live Demo
 
-## 📋 Deskripsi Proyek
-Tekvana adalah platform e-commerce yang fokus pada produk teknologi dan elektronik. Website ini dibuat sebagai proyek mini untuk mendemonstrasikan kemampuan pengembangan web modern dengan fitur-fitur lengkap seperti katalog produk, keranjang belanja, dan sistem checkout.
+[https://tekvana.vercel.app](https://tekvana.vercel.app)
 
-## ✨ Fitur Utama
-- 🏠 **Homepage** dengan hero section dan produk unggulan
-- 📱 **Katalog Produk** dengan grid layout responsif
-- 🔍 **Detail Produk** dengan informasi lengkap dan rating
-- 🛒 **Keranjang Belanja** dengan fungsi tambah/kurang/hapus item
-- 💳 **Halaman Checkout** dengan form pembayaran
-- 📄 **Halaman About** dengan informasi perusahaan
-- 📱 **Responsive Design** untuk semua ukuran layar
-- 🎨 **Modern UI/UX** dengan gradien dan animasi
+## Deskripsi Proyek
 
-## 🛠️ Teknologi yang Digunakan
-- **Framework**: Next.js 14 (App Router)
-- **Styling**: Tailwind CSS
-- **UI Components**: shadcn/ui
-- **Icons**: Lucide React
-- **API**: FakeStore API untuk data produk
-- **Deployment**: Vercel
-- **Language**: TypeScript
+Proyek ini dikembangkan sebagai mini project untuk mendemonstrasikan kemampuan pengembangan front-end menggunakan stack modern. Tekvana menyediakan fitur lengkap seperti katalog produk, detail produk, keranjang belanja, dan checkout.
 
-## 🚀 Cara Menjalankan Lokal
+## Fitur Utama
 
-\`\`\`bash
-# Clone repository
+* Halaman beranda dengan hero section dan produk pilihan
+* Katalog produk dengan tampilan grid yang responsif
+* Detail produk lengkap dengan deskripsi, harga, dan rating
+* Keranjang belanja dengan fitur tambah, kurang, dan hapus item
+* Halaman checkout dengan form isian sederhana
+* Halaman tentang kami untuk informasi perusahaan
+* Desain responsif untuk berbagai ukuran layar
+* Tampilan UI/UX modern dengan animasi dan transisi halus
+
+## Teknologi yang Digunakan
+
+* **Framework**: Next.js 14 (App Router)
+* **Styling**: Tailwind CSS
+* **Komponen UI**: shadcn/ui
+* **Icons**: Lucide React
+* **API**: FakeStore API
+* **Deployment**: Vercel
+* **Bahasa**: TypeScript
+
+## Cara Menjalankan di Lokal
+
+```bash
+# Clone repositori
 git clone https://github.com/username/tekvana-ecommerce.git
 
-# Masuk ke direktori
+# Masuk ke direktori proyek
 cd tekvana-ecommerce
 
 # Install dependencies
 npm install
 
-# Jalankan development server
+# Jalankan server pengembangan
 npm run dev
-\`\`\`
+# Buka http://localhost:3000 di browser
+```
 
-Buka [http://localhost:3000](http://localhost:3000) di browser.
+## Struktur Proyek
 
-## 📁 Struktur Proyek
-\`\`\`
+```
 tekvana/
-├── app/                    # App Router pages
-│   ├── page.tsx           # Homepage
-│   ├── products/          # Halaman produk
+├── app/                    # Halaman berbasis App Router
+│   ├── page.tsx           # Halaman utama (homepage)
+│   ├── products/          # Daftar produk
 │   ├── cart/              # Keranjang belanja
-│   ├── checkout/          # Checkout
-│   └── about/             # Tentang kami
-├── components/            # Komponen React
-│   ├── Header.tsx         # Navigation header
-│   ├── Footer.tsx         # Footer
-│   ├── ProductCard.tsx    # Card produk
-│   └── ProductGrid.tsx    # Grid produk
-├── lib/                   # Utilities & API
-│   └── api.ts            # API functions
-└── public/               # Static assets
-\`\`\`
+│   ├── checkout/          # Proses checkout
+│   └── about/             # Tentang perusahaan
+├── components/            # Komponen UI
+│   ├── Header.tsx         # Navigasi utama
+│   ├── Footer.tsx         # Footer website
+│   ├── ProductCard.tsx    # Kartu produk
+│   └── ProductGrid.tsx    # Tampilan grid produk
+├── lib/                   # Utility dan fungsi API
+│   └── api.ts             # Fungsi untuk mengambil data produk
+└── public/                # Aset statis
+```
 
-## 🎯 Fitur Khusus
-- **Lokalisasi Indonesia**: Bahasa, mata uang (IDR), dan konteks lokal
-- **Data Dinamis**: Menggunakan FakeStore API untuk produk elektronik
-- **State Management**: Local Storage untuk keranjang belanja
-- **Loading States**: Spinner dan skeleton loading
-- **Error Handling**: Fallback untuk API errors
-- **SEO Optimized**: Meta tags dan struktur HTML yang baik
+## Kontributor
 
-## 👨‍💻 Dibuat Oleh
-**[Nama Anda]** - Mahasiswa CCI Telkom University
+**Pindwa Pradana Nayottama**
 
-## 📄 Lisensi
-Proyek ini dibuat untuk keperluan edukasi dan portfolio.
+## Lisensi
+
+Proyek ini dibuat untuk keperluan edukasi dan portofolio pribadi.
 
 ---
-*Dibuat dengan ❤️ menggunakan Next.js dan Tailwind CSS*
+
+Dikembangkan dengan Next.js dan Tailwind CSS.
