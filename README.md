@@ -75,7 +75,3 @@ tekvana/
 ## Lisensi
 
 Proyek ini dibuat untuk keperluan edukasi dan portofolio pribadi.
-
----
-
-Dikembangkan dengan Next.js dan Tailwind CSS.
