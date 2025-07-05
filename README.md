@@ -1,6 +1,6 @@
-# Tekvana - E-commerce Website
+# Tekvana - E-Commerce Website
 
-Tekvana adalah website e-commerce modern yang menampilkan berbagai produk teknologi dan elektronik. Dibangun menggunakan **Next.js** dan **Tailwind CSS**, website ini dirancang responsif dengan antarmuka yang bersih dan intuitif.
+Tekvana adalah website e-commerce yang menampilkan berbagai produk teknologi dan elektronik. Dibangun menggunakan **Next.js** dan **Tailwind CSS**, website ini dirancang responsif dengan antarmuka yang bersih dan intuitif.
 
 ## Live Demo
 
@@ -23,7 +23,7 @@ Proyek ini dikembangkan sebagai mini project untuk mendemonstrasikan kemampuan p
 
 ## Teknologi yang Digunakan
 
-* **Framework**: Next.js 14 (App Router)
+* **Framework**: Next.js 
 * **Styling**: Tailwind CSS
 * **Komponen UI**: shadcn/ui
 * **Icons**: Lucide React
