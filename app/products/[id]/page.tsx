@@ -2,13 +2,29 @@ import { notFound } from "next/navigation"
 import ProductDetail from "@/components/ProductDetail"
 import { getProduct } from "@/lib/api"
 
-interface ProductPageProps {
-  params: {
-    id: string
+export async function generateMetadata({
+  params,
+}: {
+  params: { id: string }
+}) {
+  const product = await getProduct(params.id)
+
+  if (!product) {
+    return {
+      title: "Produk tidak ditemukan",
+    }
+  }
+
+  return {
+    title: product.title,
   }
 }
 
-export default async function ProductPage({ params }: ProductPageProps) {
+export default async function ProductPage({
+  params,
+}: {
+  params: { id: string }
+}) {
   const product = await getProduct(params.id)
 
   if (!product) {
